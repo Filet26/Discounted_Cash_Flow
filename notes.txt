@@ -1,0 +1,33 @@
+Company: AAPL (Apple Inc)
+Market price (12/1/2022): $148.31 USD
+Intrinsic Value: Future cashflow, NPV
+
+- Use historic FCF to predict Future FCF
+
+AAPL PAST FCF (x1000 USD)
+
+-------------------------
+DATE       |    USD $    |
+-------------------------
+2022-09-30: 111,443,000  |
+                         |
+2021-09-30: 92,953,000   |
+                         |
+2020-09-30: 73,365,000	 |
+                         |
+2019-09-30: 58,896,000   |
+                         |
+-------------------------
+
+Use to calculate fair value price vs market price.
+
+Required rate of 7%
+Perpetuity growth rate of 2% (AVG gdp growth rate around 2%)
+FCF growth rate of 3%
+
+Discounting Value Today: DV = ( FCF / 1 + req_rate ) ^ t
+
+Term Value = FCF 1 + (prep_rate / req_rate = prep_rate)
+
+SUM(FCF - DV) / Shr_outstanding = Fair Value
+
